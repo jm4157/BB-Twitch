@@ -29,7 +29,7 @@ on Discord) for the login details.
 
 ### Step 4
 
-In OBS find the Scene Collection** option and Import the file snitch_import.json. This will set 
+In OBS find the Scene Collection option and Import the file snitch_import.json. This will set 
 OBS up with all the SSS scenes.
 
 ## Stream Prep (Repeat Every Match)
