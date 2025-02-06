@@ -30,13 +30,12 @@ if __name__ == "__main__":
         for row in spamreader:
             textdump += row
 
-    file = open('chatlog.txt', 'w')
+    file = open('tidbit.txt', 'w')
     count = len(textdump) - 1
 
     while (True):
         load_text(file, textdump, random.randint(0, count))
+        print("New tidbit loaded.")
         time.sleep(delay)
 
-
-    load_text(file, textdump, 9)
     
